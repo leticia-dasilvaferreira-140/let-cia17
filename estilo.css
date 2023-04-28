@@ -34,17 +34,17 @@ body{
 
     .img1{
         position: absolute;
-width: 267px;
-height: 240px;
+        width: 267px;
+        height: 240px;
     }
 
     .img2{
         position: absolute;
-width: 269px;
-height: 240px;
+        width: 269px;
+        height: 240px;
     }
 
-    .img3{]
+    .img3{
         position: absolute;
         width: 267px;
         height: 240px;
@@ -52,8 +52,8 @@ height: 240px;
 
     .img4{
         position: absolute;
-width: 267px;
-height: 240px;
+        width: 267px;
+        height: 240px;
     }
 
     .img5{position: absolute;
