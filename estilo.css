@@ -1,81 +1,11 @@
 body{
-    background-color:rgb(2, 35, 73);
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
-    text-align: center;
+    background: linear-gradient(180deg, #1E82AD 0%, rgba(13, 101, 139, 0.29) 50%, rgba(30, 130, 173, 0.82) 80.21%), linear-gradient(180deg, #1E82AD 1.26%, rgba(13, 101, 139, 0.29) 50%, rgba(30, 130, 173, 0.82) 80.21%);
     display: inline;
-    font-size: 14px;
-    }
-    h3{
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
-    text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    .linha {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    font-size: 12px;
-    background-color:rgb(0, 0, 0);
-    }
-    .lista {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    text-align: left;
-    font-size: 12px;
-    color:rgb(0, 0, 0);
-    }
-    .itens {
-    background-color: rgb(17, 82, 87);
-    }
+}
 
-    .img1{
-        position: absolute;
-width: 178px;
-height: 178px;
-left: 249px;
-top: 269px;
-    }
-
-    .img2{
-        position: absolute;
-     width: 178px;
-     height: 178px;
-     left: 621px;
-     top: 269px;
-    }
-
-    .img3{
-        position: absolute;
-        width: 178px;
-        height: 178px;
-        left: 953px;
-        top: 269px;
-        }
-
-    .img4{
-        position: absolute;
-        width: 178px;
-        height: 178px;
-        left: 249px;
-        top: 550px;
-    }
-
-    .img5{
-        position: absolute;
-     width: 178px;
-     height: 178px;
-     left: 621px;
-     top: 550px;
-    }
-
-    .img6{position: absolute;
-        width: 178px;
-        height: 178px;
-        left: 953px;
-        top: 550px;
-         
-    }
+.avatarle{
+    width: 319px;
+height: 364px;
+position: absolute;
+left: 700px;
+}
