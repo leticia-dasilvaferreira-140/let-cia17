@@ -9,3 +9,81 @@ height: 364px;
 position: absolute;
 left: 700px;
 }
+
+.cabec{
+    width: 877px;
+height: 109px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: italic;
+font-weight: 200;
+line-height: normal;
+}
+
+.hobbie{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.animal{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.materia{
+    color: #FFF9F9;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hobbie{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.comida{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.musica{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.linhapreta{
+    width: 214px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
