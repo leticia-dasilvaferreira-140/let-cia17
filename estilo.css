@@ -1,89 +1,460 @@
 body{
-    background: linear-gradient(180deg, #1E82AD 0%, rgba(13, 101, 139, 0.29) 50%, rgba(30, 130, 173, 0.82) 80.21%), linear-gradient(180deg, #1E82AD 1.26%, rgba(13, 101, 139, 0.29) 50%, rgba(30, 130, 173, 0.82) 80.21%);
-    display: inline;
-}
-
-.avatarle{
-    width: 319px;
-height: 364px;
-position: absolute;
-left: 700px;
-}
-
-.cabec{
-    width: 877px;
-height: 109px;
-flex-shrink: 0;
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: italic;
-font-weight: 200;
-line-height: normal;
-}
-
-.hobbie{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.animal{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.materia{
-    color: #FFF9F9;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.hobbie{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.comida{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.musica{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.linhapreta{
-    width: 214px;
-    height: 41px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: italic;
-    font-weight: 300;
-    line-height: normal;
-}
+    .desktop-1,
+    .desktop-1 * {
+      box-sizing: border-box;
+    }
+    .desktop-1 {
+      background: linear-gradient(
+          180deg,
+          rgba(30, 130, 173, 1) 0%,
+          rgba(13, 101, 139, 0.29) 50%,
+          rgba(30, 130, 173, 0.82) 80.20833134651184%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(30, 130, 173, 1) 1.2552478350698948%,
+          rgba(13, 101, 139, 0.29) 50%,
+          rgba(30, 130, 173, 0.82) 80.20833134651184%
+        );
+      width: 1411px;
+      height: 1016px;
+      position: relative;
+      overflow: hidden;
+    }
+    .volei-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 327px;
+      top: 455px;
+    }
+    .hobbie {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 420px;
+    }
+    .biologia-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 926px;
+      top: 454px;
+    }
+    .my-future-dog-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 642px;
+      top: 454px;
+    }
+    .music-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 926px;
+      top: 710px;
+    }
+    .voleibol {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 633px;
+    }
+    .macarr-ozinhooo-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 642px;
+      top: 716px;
+    }
+    .cozinhar-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 327px;
+      top: 716px;
+    }
+    .lele-avatar-1 {
+      width: 319px;
+      height: 364px;
+      position: absolute;
+      left: 107px;
+      top: 7px;
+    }
+    .meu-nome-let-cia-da-silva-ferreira-estudo-no-col-gio-civico-militar-vila-gua-ra-e-estou-cursando-o-2-ano-do-ensino-m-dio {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 487px;
+      top: 177px;
+      width: 877px;
+      height: 109px;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare {
+      color: #ffffff;
+      text-align: left;
+      position: absolute;
+      left: 487px;
+      top: 969px;
+      width: 517px;
+      height: 46px;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span {
+      color: #ffffff;
+      font: 400 20px "Inter", sans-serif;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span2 {
+      color: #ffffff;
+      font: 400 16px "Inter", sans-serif;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span3 {
+      color: #ffffff;
+      font: 400 16px "Inter", sans-serif;
+      text-decoration: underline;
+    }
+    .rectangle-1 {
+      background: linear-gradient(to left, #000000, #000000),
+        linear-gradient(to left, #000000, #000000);
+      width: 1445px;
+      height: 44px;
+      position: absolute;
+      left: -5px;
+      top: 371px;
+    }
+    .rectangle-2 {
+      background: linear-gradient(to left, #000000, #000000),
+        linear-gradient(to left, #000000, #000000);
+      width: 1445px;
+      height: 31px;
+      position: absolute;
+      left: -2px;
+      top: 938px;
+    }
+    .futuro-dog {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 666px;
+      top: 632px;
+      width: 136px;
+      height: 29px;
+    }
+    .biologia {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 978px;
+      top: 632px;
+    }
+    .cozinhar {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 367px;
+      top: 900px;
+    }
+    .macarr-o {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 679px;
+      top: 900px;
+    }
+    .i-wanna-be-yours {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 919px;
+      top: 900px;
+    }
+    .sobre-mim {
+      color: #ffffff;
+      text-align: left;
+      font: 300 italic 32px "Inter", sans-serif;
+      position: absolute;
+      left: 642px;
+      top: 374px;
+      width: 214px;
+      height: 41px;
+    }
+    .hobbie2 {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 681px;
+    }
+    .materia {
+      color: #fff9f9;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 972px;
+      top: 420px;
+    }
+    .animal {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 691px;
+      top: 420px;
+    }
+    .musica {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 972px;
+      top: 679px;
+    }
+    .comida {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 691px;
+      top: 681px;
+    }.desktop-1,
+    .desktop-1 * {
+      box-sizing: border-box;
+    }
+    .desktop-1 {
+      background: linear-gradient(
+          180deg,
+          rgba(30, 130, 173, 1) 0%,
+          rgba(13, 101, 139, 0.29) 50%,
+          rgba(30, 130, 173, 0.82) 80.20833134651184%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(30, 130, 173, 1) 1.2552478350698948%,
+          rgba(13, 101, 139, 0.29) 50%,
+          rgba(30, 130, 173, 0.82) 80.20833134651184%
+        );
+      width: 1411px;
+      height: 1016px;
+      position: relative;
+      overflow: hidden;
+    }
+    .volei-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 327px;
+      top: 455px;
+    }
+    .hobbie {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 420px;
+    }
+    .biologia-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 926px;
+      top: 454px;
+    }
+    .my-future-dog-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 642px;
+      top: 454px;
+    }
+    .music-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 926px;
+      top: 710px;
+    }
+    .voleibol {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 633px;
+    }
+    .macarr-ozinhooo-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 642px;
+      top: 716px;
+    }
+    .cozinhar-1 {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 327px;
+      top: 716px;
+    }
+    .lele-avatar-1 {
+      width: 319px;
+      height: 364px;
+      position: absolute;
+      left: 107px;
+      top: 7px;
+    }
+    .meu-nome-let-cia-da-silva-ferreira-estudo-no-col-gio-civico-militar-vila-gua-ra-e-estou-cursando-o-2-ano-do-ensino-m-dio {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 487px;
+      top: 177px;
+      width: 877px;
+      height: 109px;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare {
+      color: #ffffff;
+      text-align: left;
+      position: absolute;
+      left: 487px;
+      top: 969px;
+      width: 517px;
+      height: 46px;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span {
+      color: #ffffff;
+      font: 400 20px "Inter", sans-serif;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span2 {
+      color: #ffffff;
+      font: 400 16px "Inter", sans-serif;
+    }
+    .o-amor-n-o-se-v-com-os-olhos-mas-com-o-cora-o-william-shakespeare-span3 {
+      color: #ffffff;
+      font: 400 16px "Inter", sans-serif;
+      text-decoration: underline;
+    }
+    .rectangle-1 {
+      background: linear-gradient(to left, #000000, #000000),
+        linear-gradient(to left, #000000, #000000);
+      width: 1445px;
+      height: 44px;
+      position: absolute;
+      left: -5px;
+      top: 371px;
+    }
+    .rectangle-2 {
+      background: linear-gradient(to left, #000000, #000000),
+        linear-gradient(to left, #000000, #000000);
+      width: 1445px;
+      height: 31px;
+      position: absolute;
+      left: -2px;
+      top: 938px;
+    }
+    .futuro-dog {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 666px;
+      top: 632px;
+      width: 136px;
+      height: 29px;
+    }
+    .biologia {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 978px;
+      top: 632px;
+    }
+    .cozinhar {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 367px;
+      top: 900px;
+    }
+    .macarr-o {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 679px;
+      top: 900px;
+    }
+    .i-wanna-be-yours {
+      color: #ffffff;
+      text-align: left;
+      font: 200 italic 24px "Inter", sans-serif;
+      position: absolute;
+      left: 919px;
+      top: 900px;
+    }
+    .sobre-mim {
+      color: #ffffff;
+      text-align: left;
+      font: 300 italic 32px "Inter", sans-serif;
+      position: absolute;
+      left: 642px;
+      top: 374px;
+      width: 214px;
+      height: 41px;
+    }
+    .hobbie2 {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 373px;
+      top: 681px;
+    }
+    .materia {
+      color: #fff9f9;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 972px;
+      top: 420px;
+    }
+    .animal {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 691px;
+      top: 420px;
+    }
+    .musica {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 972px;
+      top: 679px;
+    }
+    .comida {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Inter", sans-serif;
+      position: absolute;
+      left: 691px;
+      top: 681px;
+    }
+}    
+    
